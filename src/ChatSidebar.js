@@ -8,7 +8,7 @@ const ChatSidebar = () => {
             <Avatar></Avatar>
             <div className="sidebarChat_info">
                 <h3>Name</h3>
-                <p>Last message seen</p>
+                <p>Last message seen !</p>
                 <small>Timestamp</small>
             </div>
             
