@@ -1,0 +1,42 @@
+.sidebar{
+    flex:0.35;
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(140, 133, 236);
+    border-right: 1px solid rgb(255, 245, 245);
+}
+.sidebar_header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 54px;
+}
+.sidebar_avatar{
+    cursor: pointer;
+    margin: 10px;
+}
+.sidebar_input{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 1;
+    background-color: rgba(244, 220, 255, 0.849);
+    color:rgb(193, 170, 230);
+    border-radius: 5px;
+}
+.sidebar_input>input{
+    border: none;
+    background:transparent;
+    outline-width: 0;
+}
+.sidebar_chats{
+    overflow: scroll;
+}
+.sidebar_chats::-webkit-scrollbar{
+    display: none;
+}
+.sidebar_chats{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import TalkMessage from './TalkMessage';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is Redux app. Hurry up!</h1>
+      <TalkMessage></TalkMessage>
     </div>
   );
 }
