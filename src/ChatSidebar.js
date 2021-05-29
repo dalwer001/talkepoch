@@ -9,7 +9,7 @@ const ChatSidebar = () => {
             <div className="sidebarChat_info">
                 <h3>Name</h3>
                 <p>Last message seen</p>
-                <small>timestamp</small>
+                <small>Timestamp</small>
             </div>
             
         </div>
