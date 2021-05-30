@@ -12,6 +12,7 @@
     display:flex;
     justify-content:space-between;
     border-bottom: 1px solid lightgray;
+<<<<<<< HEAD:src/Chat.css
     background-color:#ade9e0;
 }
 .chat_header>h4{
@@ -20,12 +21,26 @@
 }
 .chat_name{
     color: rgb(212, 194, 194);
+=======
+    background-color:#84cabf;
+}
+.chat_header>h4{
+    font-weight: 500;
+    color:rgb(243, 237, 237);
+}
+.chat_name{
+    color: white;
+>>>>>>> 877ae53a71211151e2dfc77189404932272063f3:src/Talk.css
 }
 .chat_input{
     display:flex;
     align-items: center;
     padding:10px 20px;
+<<<<<<< HEAD:src/Chat.css
     background-color:#6eb3a1;
+=======
+    background-color:#81e0c9;
+>>>>>>> 877ae53a71211151e2dfc77189404932272063f3:src/Talk.css
 }
 .chat_input>form{
     flex:1;

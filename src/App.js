@@ -25,13 +25,32 @@ function App() {
 
       }else{
         dispatch(logout());
+<<<<<<< HEAD
+=======
+
+>>>>>>> 877ae53a71211151e2dfc77189404932272063f3
       }
 
     });
   },[])
+<<<<<<< HEAD
   return (
     <div className="App">
       {user ? <TalkMessage/> : <Login/> }
+=======
+
+
+
+
+
+
+
+
+  return (
+    <div className="App">
+      {user ? <TalkMessage/> :<Login/> }
+
+>>>>>>> 877ae53a71211151e2dfc77189404932272063f3
 
 
     </div>
