@@ -6,7 +6,7 @@ import { createSlice } from '@reduxjs/toolkit';
 //   'counter/fetchCount',
 //   async (amount) => {
 //     const response = await fetchCount(amount);
-//     // The value we return becomes the `fulfilled` action payload
+//     // The value we return becomes the fulfilled action payload
 //     return response.data;
 //   }
 // );
@@ -16,7 +16,7 @@ export const userSlice = createSlice({
   initialState:{
     user:null
   },
-  // The `reducers` field lets us define reducers and generate associated actions
+  // The reducers field lets us define reducers and generate associated actions
   reducers: {
     login: (state, action) => {
       state.user = action.payload;
@@ -24,7 +24,6 @@ export const userSlice = createSlice({
     logout: (state) => {
       state.user = null;
     },
-    
     // incrementByAmount: (state, action) => {
     //   state.value += action.payload;
     // },
@@ -51,5 +50,4 @@ export const selectUser = (state) => state.user.user;
 //     dispatch(incrementByAmount(amount));
 //   }
 // };
-
 export default userSlice.reducer;
