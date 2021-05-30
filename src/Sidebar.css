@@ -3,7 +3,7 @@
     height:100vh;
     display: flex;
     flex-direction:column;
-    background-color: #5d08e6;
+    background-color: #aff6c0be;
     border-right: 1px solid white;
 }
 .sidebar_header{
