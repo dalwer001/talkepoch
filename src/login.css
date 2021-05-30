@@ -10,22 +10,13 @@
 }
 .login button {
     width: 400px;
-<<<<<<< HEAD
     background-color: rgb(138, 209, 191);
     color: #eff3f5;
-=======
-    background-color: rgb(155, 212, 198);
-    color: #eff2f5;
->>>>>>> 877ae53a71211151e2dfc77189404932272063f3
     font-weight: 800;
 }
 
 .login > button :hover {
     width: 400px;
-<<<<<<< HEAD
     background-color: rgb(10, 106, 233);
-=======
-    background-color: rrgb(10, 106, 233);
->>>>>>> 877ae53a71211151e2dfc77189404932272063f3
     color: #afe6d5;
 }
